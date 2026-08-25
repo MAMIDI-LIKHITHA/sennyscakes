@@ -12,8 +12,8 @@ import foodTray from "@/assets/food-tray.jpg";
 import surprisePackage from "@/assets/surprise-package.jpg";
 
 export const WHATSAPP_NUMBER = "2349136240827";
-export const INSTAGRAM = "https://instagram.com/senny's_cakes_and_pastries";
-export const TIKTOK = "https://tiktok.com/@sennys.cakes.and.p";
+export const INSTAGRAM = "https://www.instagram.com/sennys_cakes_and_pastries";
+export const TIKTOK = "https://www.tiktok.com/@sennys.cakes.and.p";
 
 export const categories = ["Cakes", "Small Chops", "Pastries", "Extras"] as const;
 export type Category = (typeof categories)[number];
