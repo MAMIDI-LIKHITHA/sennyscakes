@@ -36,7 +36,6 @@ import img20 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.54 PM (1).jpeg";
 import img21 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.54 PM.jpeg";
 import img22 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.55 PM (1).jpeg";
 import img23 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.55 PM (2).jpeg";
-import img24 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.55 PM (3).jpeg";
 import img25 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.55 PM (4).jpeg";
 import img26 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.55 PM.jpeg";
 import img27 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.56 PM (1).jpeg";
@@ -48,7 +47,7 @@ import img31 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.57 PM.jpeg";
 const galleryImages = [
   img5, img6, img7, img8, img9, img10,
   img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
-  img21, img22, img23, img24, img25, img26, img27, img28, img29, img30,
+  img21, img22, img23, img25, img26, img27, img28, img29, img30,
   img31,
   heroCake, birthdayCake, graduationCake, cupcakes, lunchboxCake,
   smallChops, puffPuff, donuts, meatPie, brownies, foodTray, surprisePackage,
