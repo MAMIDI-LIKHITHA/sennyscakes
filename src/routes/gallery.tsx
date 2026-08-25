@@ -16,10 +16,6 @@ import brownies from "@/assets/brownies.jpg";
 import foodTray from "@/assets/food-tray.jpg";
 import surprisePackage from "@/assets/surprise-package.jpg";
 
-import img1 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.41 PM (1).jpeg";
-import img2 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.41 PM.jpeg";
-import img3 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.43 PM (1).jpeg";
-import img4 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.43 PM.jpeg";
 import img5 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.45 PM.jpeg";
 import img6 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.47 PM (1).jpeg";
 import img7 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.47 PM.jpeg";
