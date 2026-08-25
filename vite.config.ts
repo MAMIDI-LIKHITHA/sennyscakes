@@ -7,6 +7,10 @@ export default defineConfig({
     },
   },
 
+  nitro: {
+    preset: "node-server",
+  },
+
   tanstackStart: {
     server: { entry: "server" },
   },
