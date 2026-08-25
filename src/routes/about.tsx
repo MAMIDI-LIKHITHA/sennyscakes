@@ -1,7 +1,17 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { MapPin } from "lucide-react";
 import heroCake from "@/assets/hero-cake.jpg";
-import { products } from "@/data/products";
+
+import img5 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.45 PM.jpeg";
+import img6 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.47 PM (1).jpeg";
+import img7 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.47 PM.jpeg";
+import img8 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.48 PM (1).jpeg";
+import img9 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.48 PM (2).jpeg";
+import img10 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.48 PM.jpeg";
+import img11 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.49 PM.jpeg";
+import img12 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.50 PM (1).jpeg";
+
+const recentWorkImages = [img5, img6, img7, img8, img9, img10, img11, img12];
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -20,8 +30,8 @@ export const Route = createFileRoute("/about")({
     ],
   }),
   component: AboutPage,
-});
 
+});
 function AboutPage() {
   return (
     <div className="container-page py-12">
@@ -53,6 +63,7 @@ function AboutPage() {
             Talk to us
           </Link>
         </div>
+
         <img
           src={heroCake}
           alt="Two-tier buttercream wedding cake by Senny's Cakes & Pastries"
@@ -62,7 +73,6 @@ function AboutPage() {
           className="w-full rounded-3xl object-cover"
         />
       </div>
-
       <section className="mt-16 grid gap-4 sm:grid-cols-3">
         {[
           { label: "Made to order", value: "Every cake, every time" },
@@ -77,16 +87,16 @@ function AboutPage() {
           </div>
         ))}
       </section>
-
       <section className="mt-16">
         <h2 className="font-display text-2xl font-semibold">Recent work</h2>
         <div className="mt-6 grid gap-4 grid-cols-2 md:grid-cols-4">
-          {products.slice(0, 8).map((p) => (
+          {recentWorkImages.map((img, index) => (
             <img
-              key={p.id}
-              src={p.image}
-              alt={p.name}
+              key={index}
+              src={img}
+              alt={`Senny's Cakes & Pastries — recent work ${index + 1}`}
               loading="lazy"
+
               width={1024}
               height={1024}
               className="aspect-square w-full rounded-2xl object-cover"
