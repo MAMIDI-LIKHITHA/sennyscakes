@@ -3,18 +3,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { X } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 
-import heroCake from "@/assets/hero-cake.jpg";
-import birthdayCake from "@/assets/birthday-cake.jpg";
-import graduationCake from "@/assets/graduation-cake.jpg";
-import cupcakes from "@/assets/cupcakes.jpg";
-import lunchboxCake from "@/assets/lunchbox-cake.jpg";
-import smallChops from "@/assets/small-chops.jpg";
-import puffPuff from "@/assets/puff-puff.jpg";
-import donuts from "@/assets/donuts.jpg";
-import meatPie from "@/assets/meat-pie.jpg";
-import brownies from "@/assets/brownies.jpg";
-import foodTray from "@/assets/food-tray.jpg";
-import surprisePackage from "@/assets/surprise-package.jpg";
 
 import img5 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.45 PM.jpeg";
 import img6 from "@/assets/WhatsApp Image 2026-08-24 at 1.39.47 PM (1).jpeg";
@@ -49,8 +37,6 @@ const galleryImages = [
   img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
   img21, img22, img23, img25, img26, img27, img28, img29, img30,
   img31,
-  heroCake, birthdayCake, graduationCake, cupcakes, lunchboxCake,
-  smallChops, puffPuff, donuts, meatPie, brownies, foodTray, surprisePackage,
 ];
 
 export const Route = createFileRoute("/gallery")({
