@@ -35,7 +35,7 @@ export const products: BakeryProduct[] = [
     name: "Traditional Wedding Cake",
     category: "Cakes",
     description:
-      "An elegant two-tier buttercream centrepiece finished with hand-piped shells, sugar pearls and fresh florals. Tiers, flavour and colour palette are all made to order.",
+      "An elegant two-tier ivory cake dressed in sugar pearls and fresh florals. Tiers, flavour and colour palette are all made to order.",
     price: 45000,
     rating: 5,
     image: heroCake,
@@ -54,14 +54,14 @@ export const products: BakeryProduct[] = [
   },
   {
     id: "graduation-cake",
-    name: "Black & Gold Graduation Cake",
+    name: "Graduation Celebration Cake",
     category: "Cakes",
     description:
-      "A bold black fondant cake with a graduation cap topper and gold detailing — perfect for the \"Congratulations\" moment.",
+      "A fun fondant graduation cake with a cap topper, class-year lettering and hand-made sugar details — built around the graduate's school or course.",
     price: 22000,
     rating: 4.9,
     image: graduationCake,
-    features: ["Fondant finish", "Gold accents", "Cap topper"],
+    features: ["Fondant finish", "Custom class year", "Cap topper"],
   },
   {
     id: "lunchbox-cake",
